@@ -117,7 +117,7 @@ function myButton() {
   if (confirm("Confirm to Check Out!")) {
     txt = "Success!";
   } else {
-    txt = "You Cancelled!";
+    txt = "Items Cancelled!";
   }
   document.getElementById("click").innerHTML = txt;
 }
