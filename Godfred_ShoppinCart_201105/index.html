@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>IAMGODDEY SHOPPING MALL</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the description">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="jscript/shopitems.js" async></script>
+</head>
+
+<body>
+  <header class="main-header">
+    <h1 class="band-name band-name-large">IAMGODDEY SHOPPING MALL</h1>
+  </header>
+  <div id="user-data">
+  <form id="cart-form" method="post" action="jscript/cartSubmit.json">
+  <br/>
+  <label>Name</label>
+  <input name="name" type="text"></input>
+<br/>
+  <label>Email</label>
+  <input name="email" type="text"></input>
+<br/>
+<label>Newsletter?</label>
+<input name="wantNewsletter" id="newsletter-checkbox" checked type="checkbox"></input>
+<br/>
+<select name="newsletterFrequency" id="newsletter-frequency">
+  <option>-</option>
+  <option>Daily</option>
+  <option selected>Weekly</option>
+  <option>Monthly</option>
+</select>
+<br/>
+<button id="submit-cart">Submit</button>
+</form>
+<div id="feedback-message"></div>
+
+</div>
+
+  <section class="container content-section">
+    <h2 class="section-header">Home Deco & Appliances</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">Samsung TV 60"</span>
+        <img class="shop-item-image" src="images/TV42inch.jpg">
+        <div class="description">
+          <ul>
+          <li>size: 60" </li>
+          <li>Screen resolution: 3840 x 2160 </li>
+          <li>Display type: UHD, </li>
+          <li>Connectivity: USB, HDMI, Wi-Fi, Bluetooth</li></ul></div>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">AI Smart. The New Smart Evolved by AI. <br>
+          4K Resolution A New Standard for High Definition <br>
+          True Immersion. Even at A Wide Viewing Angle <br>
+          Quad Core Processor The Origin of 4K Images <br>
+          True Color Accuracy <br>
+          4K Active HDR for Incredible Detail
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$320.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Old TV 24"</span>
+        <img class="shop-item-image" src="images/TVOld.jpg">
+        <div class="description">
+        <ul>
+          <li>size: 24" </li>
+          <li>Audio Output: 2*7W </li>
+          <li>Power Consumption: 55W</li>
+          <li>Dimension: (L*W*H) 835*514*132mm</li>
+          <li>Net Weight(Kg):  3.9kg</li>
+          <li>Gross Weight(Kg):   5.3kg</li>
+          <li>Connectivity: 2 USB/1 AV in/1 YPbPrIn/1 Earphone/1 COAX</li></ul></div>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$402.97</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">3 in 1 </span>
+        <img class="shop-item-image" src="images/Furniture3.jpg">
+        <div class="description">
+        <ul>
+          <li>Color: Black/Grey/Brown/Blue Strips</li>
+          <li>Wood Treated</li>
+          <li>Skeleton Framed</li>
+          <li>Fibre on The Seat</li>
+          <li>Size: 78”L x 30”D x 26”H</li>
+          <li>Additional  2 Small Side Pillows</li>
+          <li>Weight (kg): 120</li>
+        </ul>
+      </div>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">
+          <ul>
+          <li>Additional  2 Small Side Pillows</li>
+          <li>5 Seater Fabric L Shaped Sofa Chair - Grey</li>
+        </ul>
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$600.50</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Interior Decor</span>
+        <img class="shop-item-image" src="images/HomeDec2.jpg">
+        <div class="description">
+        <ul>
+          <li>Application Size:1.2m (4 feet),1.35m (4.5 feet),2.2m (7 feet),</li>
+          <li>Color Fastness (Grade):National Standards</li>
+          <li>Type:Duvet Cover Set(Without Comforter)</li>
+          <li>Material:100% Polyester</li>
+          <li>Pattern Type:Geometric</li>
+          <li>Fabric Density:128X68</li>
+          <li>Grade:Grade A</li>
+          <li>Use:Home</li>
+        </ul>
+      </div>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">
+          <ul>
+          Package Includes:
+          <li>1*Quilt Cover</li>
+            <li>1*bed sheet</li>
+            <li>2*pillow case</li>
+            </ul>
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$25.00</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+            <div class="shop-item">
+              <span class="shop-item-title">Curtains</span>
+              <img class="shop-item-image" src="images/HomeDec3.jpg">
+              <br>
+              <a class="more-info-link" href="#">More info</a>
+              <div class="more-info">Lorem ipsum dolor sit amet,
+              </div>
+              <br style="clear: left;" />
+              <div class="shop-item-details">
+                <span class="shop-item-price">$30.40</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+            </div>
+    </div>
+  </section>
+
+  <section class="container content-section">
+    <h2 class="section-header">Kitchen Appliances</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">Freezers, Cooker & Microwave</span>
+        <img class="shop-item-image" src="images/Kitch1.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$1200.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Hand Blender & Opener</span>
+        <img class="shop-item-image" src="images/Kitchen2.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$730.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Gas Stove</span>
+        <img class="shop-item-image" src="images/Kitchen7.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Very Good Gas Stove,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$60.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Coffee Machine & Slicer</span>
+        <img class="shop-item-image" src="images/kitchen5.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$35.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class="shop-item">
+        <span class="shop-item-title">Rice Cooker</span>
+        <img class="shop-item-image" src="images/kitchen6.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$25.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+
+      <div class="shop-item">
+        <span class="shop-item-title">Blenders</span>
+        <img class="shop-item-image" src="images/kitchen3.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$190.95</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="container content-section">
+    <h2 class="section-header">For Kids</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">Kids Pressing Iron</span>
+        <img class="shop-item-image" src="images/kids 1.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$10.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Kitchen Sets</span>
+        <img class="shop-item-image" src="images/Kids4.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$5.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+            <div class="shop-item">
+              <span class="shop-item-title">Heater</span>
+              <img class="shop-item-image" src="images/Kids2.jpg">
+              <br>
+              <a class="more-info-link" href="#">More info</a>
+              <div class="more-info">Lorem ipsum dolor sit amet,
+              </div>
+              <br style="clear: left;" />
+              <div class="shop-item-details">
+                <span class="shop-item-price">$4.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+            </div>
+    </div>
+  </section>
+
+  <section class="container content-section">
+    <h2 class="section-header">Mobile Phones & Accessories</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">Samsung S 6</span>
+        <img class="shop-item-image" src="images/SamPhone1.jpg">
+        <div class="description">
+        <ul>
+          <li>Display: 
+            <li>Screen Size: 5.6."</li>
+            <li>Screen Type: Touch FHD,Wi-Fi, Anti-glare</li>
+            <li>Resolution: 920 x 1080 Pixels</li>
+          </li>
+        </ul>
+      </div>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Goddey Phones presents Samsung Galaxy S6. Infinity Display of the Samsung Galaxy S6 has an incredible end-to-end
+        screen that spills over the phone’s sides, forming a completely smooth, continuous surface with no bumps or angles. It’s
+        pure, pristine, uninterrupted glass. And it takes up the entire front of the phone, flowing seamlessly into the aluminum
+        shell. The result is a beautifully curved, perfectly symmetrical, singular object.
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$199.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Samsung Galaxy S8 Plus</span>
+        <img class="shop-item-image" src="images/SamGalaxy2.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Goddey Phones presents Samsung Galaxy S8 Plus. Infinity Display of the Samsung Galaxy S8 has an incredible end-to-end screen that spills
+        over the phone’s sides, forming a completely smooth, continuous surface with no bumps or angles. It’s pure, pristine,
+        uninterrupted glass. And it takes up the entire front of the phone, flowing seamlessly into the aluminum shell. The
+        result is a beautifully curved, perfectly symmetrical, singular object.
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$289.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">iPhone XR</span>
+        <img class="shop-item-image" src="images/iPhoneXR.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$859.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">iPhone X</span>
+        <img class="shop-item-image" src="images/iPhoneX.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">iPhone X has a beautiful 6.8-inch Super Retina display which is the first OLED panel that rises to the standards of
+        iPhone, with stunning colors, true blacks, a million-to-one contrast ratio and wide color support. The phone comes with
+        Face ID, a Powerful and Secure Authentication System with advanced depth-sensing technologies that work together to
+        securely unlock iPhone, enable Apple Pay, gain access to secure apps and many more new features.
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$659.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">iPhone 11 Pro Max</span>
+        <img class="shop-item-image" src="images/iPhone11ProMax.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">iPhone11 Pro Max has a beautiful 7.8-inch Super Retina display which is the first OLED panel that rises
+           to the standards of iPhone, with stunning colors, true blacks, a million-to-one contrast ratio and wide color support. 
+           The phone comes with Face ID, a Powerful and Secure Authentication System with advanced depth-sensing technologies that work 
+           together to securely unlock iPhone, enable Apple Pay, gain access to secure apps and many more new features.
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$989.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">iPhone 11 Refurbrished</span>
+        <img class="shop-item-image" src="images/iPhone11new.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">iPhone 11 Refurbrished has a beautiful 6.8-inch Super Retina display which is the first OLED panel that rises 
+          to the standards of iPhone, with stunning colors, true blacks, a million-to-one contrast ratio and wide color support. 
+          The phone comes with Face ID, a Powerful and Secure Authentication System with advanced depth-sensing technologies that work together 
+          to securely unlock iPhone, enable Apple Pay, gain access to secure apps and many more new features.
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$595.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="container content-section">
+      <h2 class="section-header">Computer & Accessories</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Desktop Accessories</span>
+          <img class="shop-item-image" src="images/ComAccess1.jpg">
+          
+      </div>
+          <a class="more-info-link" href="#">More info</a>
+          <div class="more-info">
+          </div>
+          <br style="clear: left;" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$611.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Desktop Computer</span>
+          <img class="shop-item-image" src="images/CompleteDesk1.jpg">
+          <br>
+          <a class="more-info-link" href="#">More info</a>
+          <div class="more-info">Dell Inspiron 3593 comes in a sleeker design and built with premium materials. The beautiful 15.6" FHD  screen 
+            with Corning Gorilla® NBT is made to be Scratch-resistant. The keyboard is also spill resistant. The Anodized 180-degree hinge solution 
+            allows you to lay the monitor and keyboard flat on any surface
+
+          </div>
+          <br style="clear: left;" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$210.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="shop-item"><span class="shop-item-title">MacBook Air</span>
+          <img class="shop-item-image" src="images/AppleAIr1.jpg">
+          <div class="description">
+        <ul>
+          <li>Display: 
+            <li>Screen Size: 15.6."</li>
+            <li>OS: Catalina</li>
+            <li>Processor Brand: Intel</li>
+             <li> Processor Type: Core i5-1005G1</li>
+              <li>Processor Speed: 2.80 GHz up to 3.2GHz</li>
+            <li>Screen Type: Non-Touch FHD, LCD WLAN, Anti-glare</li>
+            <li>Resolution: 1920 x 1080 Pixels</li>
+          </li>
+        </ul>
+            <a class="more-info-link" href="#">More info</a>
+            <div class="more-info">
+              Processor Count: 2
+              Features: Intel Turbo Boost Technology 2.0
+            </div>
+          <br style="clear: left;" />
+          <div class="shop-item-details">
+          <span class="shop-item-price">$2240.03</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+            <div class="shop-item">
+              <span class="shop-item-title">MacBook Pro & Accessories</span>
+              <img class="shop-item-image" src="images/MAcbookProandAcc.jpg">
+              <br>
+              <a class="more-info-link" href="#">More info</a>
+              <div class="more-info">Lorem ipsum dolor sit amet,
+              </div>
+              <br style="clear: left;" />
+              <div class="shop-item-details">
+                <span class="shop-item-price">$210.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+            </div>
+              <div class="shop-item">
+                <span class="shop-item-title">MacBook Stand</span>
+                <img class="shop-item-image" src="images/macStand.jpg">
+                <br>
+                <a class="more-info-link" href="#">More info</a>
+                <div class="more-info">Lorem ipsum dolor sit amet,
+                </div>
+                <br style="clear: left;" />
+                <div class="shop-item-details">
+                  <span class="shop-item-price">$21.99</span>
+                  <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+              </div>
+      </div>
+    </section>
+
+  <section class="container content-section">
+    <h2 class="section-header">Fashion</h2>
+    <div class="shop-items">
+      <div class="shop-item">
+        <span class="shop-item-title">Kids African Wear</span>
+        <img class="shop-item-image" src="images/Fashkids.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$10.00</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+      <div class="shop-item">
+        <span class="shop-item-title">Ladies African Wear</span>
+        <img class="shop-item-image" src="images/FashLady.jpg">
+        <br>
+        <a class="more-info-link" href="#">More info</a>
+        <div class="more-info">Lorem ipsum dolor sit amet,
+        </div>
+        <br style="clear: left;" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$20.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Ladies Wear</span>
+          <img class="shop-item-image" src="images/FashLady2.jpg">
+          <br>
+          <a class="more-info-link" href="#">More info</a>
+          <div class="more-info">Lorem ipsum dolor sit amet,
+          </div>
+          <br style="clear: left;" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$12.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+          </div>
+        </div>
+            <div class="shop-item">
+              <span class="shop-item-title">The Liddle Fashion</span>
+              <img class="shop-item-image" src="images/FashLiddel.jpg">
+              <br>
+              <a class="more-info-link" href="#">More info</a>
+              <div class="more-info">Lorem ipsum dolor sit amet,
+              </div>
+              <br style="clear: left;" />
+              <div class="shop-item-details">
+                <span class="shop-item-price">$25.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+              </div>
+            </div>
+    </div>
+  </section>
+  <section class="container content-section">
+    <h2 class="section-header">Cart</h2>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">UNIT PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" onclick="myButton()" type="button">CHECK OUT</button>
+    <p id="click"></p>
+  </section>
+  <footer class="main-footer">
+    <div class="container main-footer-container">
+      <h3 class="band-name">SHOPPING MALL</h3>
+  </footer>
+  </body>
+
+</html>
