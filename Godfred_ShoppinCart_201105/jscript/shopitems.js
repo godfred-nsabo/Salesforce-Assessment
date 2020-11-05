@@ -29,9 +29,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-  //alert(`Thank you for your purchase ${total}`);
   alert("Thank you for your purchase");
-  prompt(total);
   var cartItems = document.getElementsByClassName("cart-items")[0];
   while (cartItems.hasChildNodes()) {
     cartItems.removeChild(cartItems.firstChild);
@@ -76,7 +74,7 @@ function addItemToCart(title, price, imageSrc) {
   }
   var cartRowContents = `
         <div class="cart-item cart-column">
-            <img class="cart-item-image" src="${imageSrc}" width="20" height="20">
+            <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
             <span class="cart-item-title">${title}</span>
         </div>
         <span class="cart-price cart-column">${price}</span>
@@ -113,12 +111,13 @@ function updateCartTotal() {
     "$" + total;
 }
 
+
 function myButton() {
   var txt;
   if (confirm("Confirm to Check Out!")) {
-    txt = "You pressed OK!";
+    txt = "Success!";
   } else {
-    txt = "You pressed Cancel!";
+    txt = "You Cancelled!";
   }
   document.getElementById("click").innerHTML = txt;
 }
