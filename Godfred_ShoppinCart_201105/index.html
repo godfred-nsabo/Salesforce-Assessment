@@ -503,7 +503,7 @@
       <div class="shop-item">
         <span class="shop-item-title">Ladies African Wear</span>
         <img class="shop-item-image" src="images/FashLady.jpg">
-        <br>
+        
         <a class="more-info-link" href="#">More info</a>
         <div class="more-info">Lorem ipsum dolor sit amet,
         </div>
@@ -516,8 +516,7 @@
         <div class="shop-item">
           <span class="shop-item-title">Ladies Wear</span>
           <img class="shop-item-image" src="images/FashLady2.jpg">
-          <br>
-          <a class="more-info-link" href="#">More info</a>
+          <a id="container" class="more-info-link" href="#">More info</a>
           <div class="more-info">Lorem ipsum dolor sit amet,
           </div>
           <br style="clear: left;" />
@@ -529,7 +528,6 @@
             <div class="shop-item">
               <span class="shop-item-title">The Liddle Fashion</span>
               <img class="shop-item-image" src="images/FashLiddel.jpg">
-              <br>
               <a class="more-info-link" href="#">More info</a>
               <div class="more-info">Lorem ipsum dolor sit amet,
               </div>
@@ -556,6 +554,19 @@
     </div>
     <button class="btn btn-primary btn-purchase" onclick="myButton()" type="button">CHECK OUT</button>
     <p id="click"></p>
+    <button type="button">Add More !</button>
+ <table id="customers">
+   <tr>
+     <th>Product</th>
+     <th>Quantity</th>
+     <th>Price</th>
+  </tr>
+      <tr>
+         <td><input type="text" name="product" value="product.."></input></td>
+        <td><input type="number" name="quantity" value="quanty.."></input></td>
+        <td><input type="number" name="price" value="price.."></input></td>
+      </tr>
+ </table>
   </section>
   <footer class="main-footer">
     <div class="container main-footer-container">

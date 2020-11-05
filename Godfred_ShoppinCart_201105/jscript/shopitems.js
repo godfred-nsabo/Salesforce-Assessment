@@ -123,12 +123,21 @@ function myButton() {
   document.getElementById("click").innerHTML = txt;
 }
 
+$(document).ready(function () {
+  $("button").on("click", function () {
+    var row =
+      '<tr><td><input type="text" name="product" value="product.."></input></td><td><input type="number" name="quantity" value="quanty.."></input></td><td><input type="number" name="price" value="price.."></input></td></tr>';
+    
+    $("#customers").append(row);
+  });
+});
+$(document).ready(function () {
+  $("#container").on("click", ".more-info-link", function (event) {
+    event.preventDefault();
 
-$("#container").on("click", ".more-info-link", function (event) {
-  event.preventDefault();
+    $(this).parent().find(".more-info").slideToggle("fast");
 
-  $(this).parent().find(".more-info").slideToggle("fast"); 
-
-  $(this).animate({ opacity: 0.5, "margin-left": 10 }, 3600);
-  $(this).animate({ opacity: 1.0, "margin-left": 0 }, 3600);
+    $(this).animate({ opacity: 0.5, "margin-left": 10 }, 3600);
+    $(this).animate({ opacity: 1.0, "margin-left": 0 }, 3600);
+  });
 });
