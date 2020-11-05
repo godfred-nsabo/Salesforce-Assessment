@@ -327,5 +327,5 @@ html, body {
     font-size: 1.75em;
 }
 .shop-item .more-info {
-  display: none;
+  display: inline;
 }
