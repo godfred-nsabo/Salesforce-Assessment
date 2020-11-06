@@ -8,6 +8,8 @@
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="jscript/shopitems.js" async></script>
+    <script src="jscript/cartSubmit.json" async></script>
+
 </head>
 
 <body>
@@ -23,6 +25,9 @@
   <label>Email</label>
   <input name="email" type="text"></input>
 <br/>
+  <label>Password</label>
+  <input name="Password" type="text"></input>
+<br>
 <label>Newsletter?</label>
 <input name="wantNewsletter" id="newsletter-checkbox" checked type="checkbox"></input>
 <br/>
@@ -32,12 +37,12 @@
   <option selected>Weekly</option>
   <option>Monthly</option>
 </select>
-<br/>
-<button id="login-cart">Log in</button>
 <br>
-<button id="submit-cart">Submit</button>
-<br>
-<button id="signout-cart">Sign out</button>
+<button class="btn btn-login-cart" onclick="myLogin()" type="button">Log in</button>
+ <p id="click"></p>
+<br> Don't have an account? Create an account here.
+<!--<button id="submit-cart">Submit</button>
+<button id="signout-cart">Sign out</button>-->
 <br>
 <button id="signin-cart">Sign up</button>
 

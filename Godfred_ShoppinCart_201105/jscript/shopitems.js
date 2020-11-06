@@ -19,7 +19,8 @@ function ready() {
 
   var addToCartButtons = document.getElementsByClassName("shop-item-button");
   for (var i = 0; i < addToCartButtons.length; i++) {
-    var button = addToCartButtons[i];
+    const newLocal = addToCartButtons[i];
+    var button = newLocal;
     button.addEventListener("click", addToCartClicked);
   }
 
@@ -29,7 +30,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-  alert("Thank you for your purchase");
+  alert("Thank you for shopping at IAMGODDEY MALL");
   var cartItems = document.getElementsByClassName("cart-items")[0];
   while (cartItems.hasChildNodes()) {
     cartItems.removeChild(cartItems.firstChild);
@@ -68,7 +69,7 @@ function addItemToCart(title, price, imageSrc) {
   var cartItemNames = cartItems.getElementsByClassName("cart-item-title");
   for (var i = 0; i < cartItemNames.length; i++) {
     if (cartItemNames[i].innerText == title) {
-      alert("This item is already added to the cart");
+      alert("This item is already added");
       return;
     }
   }
@@ -107,10 +108,20 @@ function updateCartTotal() {
     total = total + price * quantity;
   }
   total = Math.round(total * 100) / 100;
-  document.getElementsByClassName("cart-total-price")[0].innerText =
-    "$" + total;
+  document.getElementsByClassName(
+    "cart-total-price"
+  )[0].innerText = `$${total}`;
 }
 
+function myLogin() {
+  var txt;
+  if (confirm("Confirm details to Login")) {
+    txt = "Success!";
+  } else {
+    txt = "Login Cancelled!";
+  }
+  document.getElementById("click").innerHTML = txt;
+}
 
 function myButton() {
   var txt;
@@ -126,7 +137,7 @@ $(document).ready(function () {
   $("button").on("click", function () {
     var row =
       '<tr><td><input type="text" name="product" value="product.."></input></td><td><input type="number" name="quantity" value="quanty.."></input></td><td><input type="number" name="price" value="price.."></input></td></tr>';
-    
+
     $("#customers").append(row);
   });
 });
