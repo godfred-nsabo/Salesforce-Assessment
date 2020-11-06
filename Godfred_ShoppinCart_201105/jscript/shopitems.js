@@ -1,3 +1,6 @@
+
+alert('Welcome to IAMGODDEY MALL \n Enjoy your shopping');
+
 if (document.readyState == "loading") {
   document.addEventListener("DOMContentLoaded", ready);
 } else {
@@ -120,7 +123,7 @@ function myLogin() {
   } else {
     txt = "Login Cancelled!";
   }
-  document.getElementById("click").innerHTML = txt;
+  document.getElementById("login").innerHTML = txt;
 }
 
 function myButton() {
