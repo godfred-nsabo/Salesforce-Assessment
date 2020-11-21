@@ -1,5 +1,5 @@
 
-alert('Welcome to IAMGODDEY MALL \n Enjoy your shopping');
+alert('Welcome to IAMGODDEY SHOPPING MALL \n \n Enjoy your shopping');
 
 if (document.readyState == "loading") {
   document.addEventListener("DOMContentLoaded", ready);
