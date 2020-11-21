@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Shopping Mall",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server src --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godfred-nsabo/Projects.git"
+  },
+  "author": "Godfred Nsabo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godfred-nsabo/Projects/issues"
+  },
+  "homepage": "https://github.com/godfred-nsabo/Projects#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "yargs-parser": "^20.2.4"
+  }
+}

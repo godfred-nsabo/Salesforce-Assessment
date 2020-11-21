@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Shopping Mall</title>
+
+    <script
+      src="https://kit.fontawesome.com/447b084a86.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./jsScript/advert.js"></script>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+
+  <body>
+    <!--header-->
+    <header class="main-header">
+
+      <div class="container-fluid p-0">
+
+        <nav class="nav main-nav navbar-expand-lg navbar-light bg-white">
+          <!-- <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div type="select" class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >HOME <span class="sr-only"></span></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+          <form class="example" action="action_page.php">
+             
+            <input
+              type="text"
+              class="searchTerm"
+              placeholder="Search.."
+              name="search"
+            />
+             
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </nav>
+      </div>
+    </header>
+
+    <section class="content-section container">
+      <h2 class="section-header">About us</h2>
+      <img class="about-band-image" src="./images/Desktop.jpg" />
+      <p>
+        IAM Shopping Mall, Ghana's no. 1 online retailer was established in May 2014 with
+        the aim and vision to become the one-stop shop for retail in Ghana with
+        implementation of best practices both online and offline. IAM Shopping Mall is the
+        largest online retail store in Ghana. At inception we did an average
+        delivery time of a week, today we do, on average, delivery in 1-5 days.
+        Initially starting with 3 employees, IAM Shopping Mall presently has a staff
+        strength of 80 young and entrepreneurial Ghanaians including our 8 man
+        strong customer service team available 6 days a week. Deliveries to all
+        10 Regions in Ghana.
+      </p>
+    </section>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">IAM Shopping Mall</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.youtube.com" target="_blank">
+              <img src="./images/Youtube Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spotify.com" target="_blank">
+              <img src="./images/Spotify Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/godfred-nsabo" target="_blank">
+              <img src="./images/Facebook Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/godfred-nsabo" target="_blank">
+              <img src="./images/Github Logo.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
